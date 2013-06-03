@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>2011-07-18</key>
+	<dict>
+		<key>Dismals Canyon</key>
+		<dict>
+			<key>Date</key>
+			<string>2011-07-18</string>
+			<key>Annotations</key>
+			<array/>
+			<key>Trip</key>
+			<array>
+				<string>2011-07-18 08:50:00,-87.77915239334106, 34.32779052099864</string>
+				<string>2011-07-18 08:50:00,-87.77781128883362, 34.327232330346476</string>
+				<string>2011-07-18 08:50:00,-87.77862668037415, 34.32616909978379</string>
+				<string>2011-07-18 08:50:00,-87.7790880203247, 34.32602733469083</string>
+				<string>2011-07-18 08:50:00,-87.77945280075073, 34.32590329003805</string>
+			</array>
+		</dict>
+		<key>By The Coast</key>
+		<dict>
+			<key>Date</key>
+			<string>2011-07-18</string>
+			<key>Annotations</key>
+			<array>
+				<string>Cool Fish Sited, Think it was a Snapper, -76.314873,37.002787</string>
+				<string>Large anchor underwater,Should warch out for that,-76.315127,37.002703</string>
+			</array>
+			<key>Trip</key>
+			<array>
+				<string>2011-07-18 08:50:00,-76.314873,37.002787</string>
+				<string>2011-07-18 08:50:30,-76.31498,37.002847</string>
+				<string>2011-07-18 08:51:00,-76.315127,37.002703</string>
+				<string>2011-07-18 08:51:15,-76.315227,37.002608
+07/18/2011 08:51:30 AM 5 mph S,-76.315307,37.002447</string>
+			</array>
+		</dict>
+	</dict>
+	<key>2011-05-28</key>
+	<dict>
+		<key>Anza-Borrego Desert State Park</key>
+		<dict>
+			<key>Date</key>
+			<string>2011-05-28</string>
+			<key>Annotations</key>
+			<array/>
+			<key>Trip</key>
+			<array>
+				<string>2011-07-20 08:50:00,-116.30971312522888,33.09335722945638</string>
+				<string>2011-07-20 08:51:00,-116.30924105644226,33.093653847014</string>
+				<string>2011-07-20 08:52:00,-116.30879044532776,33.09384260312052</string>
+				<string>2011-07-20 08:53:00,-116.30847930908203,33.0937167657612</string>
+			</array>
+		</dict>
+	</dict>
+	<key>2011-04-02</key>
+	<dict>
+		<key>Niagra Falls</key>
+		<dict>
+			<key>Date</key>
+			<string>2011-04-02</string>
+			<key>Annotations</key>
+			<array/>
+			<key>Trip</key>
+			<array>
+				<string>2011-04-02 08:50:00,-79.0726375579834,43.0815601394072</string>
+				<string>2011-04-02 08:51:00,-79.07302379608154,43.0813955800309</string>
+				<string>2011-04-02 08:52:00,-79.07383918762207,43.08106645995231</string>
+				<string>2011-04-02 08:53:00,-79.07407522201538,43.0809645890935</string>
+				<string>2011-04-02 08:54:00,-79.07416105270386,43.080807864364566</string>
+				<string>2011-04-02 08:54:00,-79.07468676567078,43.08036119668768</string>
+				<string>2011-04-02 08:54:00,-79.07396793365479,43.079992889311626</string>
+				<string>2011-04-02 08:54:00,-79.07290577888489,43.07962457972159</string>
+				<string>2011-04-02 08:54:00,-79.07227277755737,43.079271940805384</string>
+			</array>
+		</dict>
+	</dict>
+	<key>2012-12-04</key>
+	<dict>
+		<key>Dinosaur Park</key>
+		<dict>
+			<key>Date</key>
+			<string>2012-12-04</string>
+			<key>Annotations</key>
+			<array/>
+			<key>Trip</key>
+			<array>
+				<string>2012-12-04 08:50:00,-72.65642881393433,41.65222453783899</string>
+				<string>2012-12-04 08:50:00,-72.65631079673767,41.65186379400934</string>
+				<string>2012-12-04 08:50:00, -72.65641808509827,41.651735529049716</string>
+				<string>2012-12-04 08:50:00,-72.65660047531128, 41.65162329700053</string>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

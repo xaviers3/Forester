@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB03EB5D1668096C003E49C6 /* BirdsFlyingRight.png in Resources */ = {isa = PBXBuildFile; fileRef = AB03EB5C1668096C003E49C6 /* BirdsFlyingRight.png */; };
+		AB03EB67166813F0003E49C6 /* BirdsFlyingLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = AB03EB66166813F0003E49C6 /* BirdsFlyingLeft.png */; };
+		AB03EB6E16681778003E49C6 /* flyover.png in Resources */ = {isa = PBXBuildFile; fileRef = AB03EB6D16681778003E49C6 /* flyover.png */; };
+		AB03EB7916681F9D003E49C6 /* arrow_Path.png in Resources */ = {isa = PBXBuildFile; fileRef = AB03EB7816681F9D003E49C6 /* arrow_Path.png */; };
+		AB03EB7F166820CB003E49C6 /* icon_storage.png in Resources */ = {isa = PBXBuildFile; fileRef = AB03EB7E166820CB003E49C6 /* icon_storage.png */; };
+		AB03EB81166820EF003E49C6 /* icon_arrow_down.png in Resources */ = {isa = PBXBuildFile; fileRef = AB03EB80166820EF003E49C6 /* icon_arrow_down.png */; };
+		AB03EB89166823AC003E49C6 /* RecentTripsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB03EB88166823AC003E49C6 /* RecentTripsViewController.m */; };
+		AB4D29C5167D058500F5E41C /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = AB4D29C3167D058500F5E41C /* blueButton.png */; };
+		AB4D29C6167D058500F5E41C /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = AB4D29C4167D058500F5E41C /* whiteButton.png */; };
+		AB4D29CA167D05B100F5E41C /* ButtonLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4D29C9167D05B100F5E41C /* ButtonLoader.m */; };
+		AB8C6F0E167BC48D004DF878 /* NewTripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8C6F0D167BC48C004DF878 /* NewTripViewController.m */; };
+		AB8C6F11167BC53C004DF878 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8C6F10167BC53C004DF878 /* CoreLocation.framework */; };
+		AB8C6F13167BC542004DF878 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8C6F12167BC542004DF878 /* MapKit.framework */; };
+		AB8C6F1B167BC806004DF878 /* ExistingTripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8C6F1A167BC806004DF878 /* ExistingTripViewController.m */; };
+		AB8C6F33167BE309004DF878 /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8C6F32167BE309004DF878 /* MapAnnotation.m */; };
+		AB8C6F3F167C08AD004DF878 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8C6F3E167C08AD004DF878 /* InfoViewController.m */; };
+		AB935D44167EDEE0001330D5 /* AllTripsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB935D43167EDEE0001330D5 /* AllTripsViewController.m */; };
+		AB935D5C167F42E4001330D5 /* foresterlaunchimage57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = AB935D5B167F42E4001330D5 /* foresterlaunchimage57x57.png */; };
+		AB935D68167F4315001330D5 /* foresterlaunchimage114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = AB935D67167F4315001330D5 /* foresterlaunchimage114x114.png */; };
+		AB935D6A167F4329001330D5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AB935D69167F4329001330D5 /* Default.png */; };
+		AB935D6C167F432C001330D5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB935D6B167F432C001330D5 /* Default@2x.png */; };
+		AB935D6E167F4371001330D5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB935D6D167F4371001330D5 /* Default-568h@2x.png */; };
+		B7223A331667ABA400F13CC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7223A321667ABA400F13CC3 /* UIKit.framework */; };
+		B7223A351667ABA400F13CC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7223A341667ABA400F13CC3 /* Foundation.framework */; };
+		B7223A371667ABA400F13CC3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7223A361667ABA400F13CC3 /* CoreGraphics.framework */; };
+		B7223A3D1667ABA400F13CC3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7223A3B1667ABA400F13CC3 /* InfoPlist.strings */; };
+		B7223A3F1667ABA400F13CC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7223A3E1667ABA400F13CC3 /* main.m */; };
+		B7223A431667ABA400F13CC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7223A421667ABA400F13CC3 /* AppDelegate.m */; };
+		B7223A4C1667ABA400F13CC3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7223A4A1667ABA400F13CC3 /* MainStoryboard.storyboard */; };
+		B7223A621667ABA400F13CC3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7223A611667ABA400F13CC3 /* SenTestingKit.framework */; };
+		B7223A631667ABA400F13CC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7223A321667ABA400F13CC3 /* UIKit.framework */; };
+		B7223A641667ABA400F13CC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7223A341667ABA400F13CC3 /* Foundation.framework */; };
+		B7223A6C1667ABA400F13CC3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7223A6A1667ABA400F13CC3 /* InfoPlist.strings */; };
+		B7223A6F1667ABA400F13CC3 /* ForesterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7223A6E1667ABA400F13CC3 /* ForesterTests.m */; };
+		B76634441667C3A9000D597F /* WelcomeTree.png in Resources */ = {isa = PBXBuildFile; fileRef = B76634431667C3A9000D597F /* WelcomeTree.png */; };
+		B76634491667C4AE000D597F /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B76634481667C4AE000D597F /* WelcomeViewController.m */; };
+		B7C2E5C51667B7A8006A2E2D /* trips.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7C2E5C41667B7A8006A2E2D /* trips.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7223A651667ABA400F13CC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7223A251667ABA400F13CC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7223A2D1667ABA400F13CC3;
+			remoteInfo = Forester;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB03EB5C1668096C003E49C6 /* BirdsFlyingRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BirdsFlyingRight.png; sourceTree = "<group>"; };
+		AB03EB66166813F0003E49C6 /* BirdsFlyingLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BirdsFlyingLeft.png; sourceTree = "<group>"; };
+		AB03EB6D16681778003E49C6 /* flyover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flyover.png; sourceTree = "<group>"; };
+		AB03EB7816681F9D003E49C6 /* arrow_Path.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_Path.png; sourceTree = "<group>"; };
+		AB03EB7E166820CB003E49C6 /* icon_storage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_storage.png; sourceTree = "<group>"; };
+		AB03EB80166820EF003E49C6 /* icon_arrow_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_arrow_down.png; sourceTree = "<group>"; };
+		AB03EB87166823AC003E49C6 /* RecentTripsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentTripsViewController.h; sourceTree = "<group>"; };
+		AB03EB88166823AC003E49C6 /* RecentTripsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentTripsViewController.m; sourceTree = "<group>"; };
+		AB4D29C3167D058500F5E41C /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
+		AB4D29C4167D058500F5E41C /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButton.png; sourceTree = "<group>"; };
+		AB4D29C8167D05B100F5E41C /* ButtonLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonLoader.h; sourceTree = "<group>"; };
+		AB4D29C9167D05B100F5E41C /* ButtonLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonLoader.m; sourceTree = "<group>"; };
+		AB8C6F0C167BC48C004DF878 /* NewTripViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTripViewController.h; sourceTree = "<group>"; };
+		AB8C6F0D167BC48C004DF878 /* NewTripViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTripViewController.m; sourceTree = "<group>"; };
+		AB8C6F10167BC53C004DF878 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AB8C6F12167BC542004DF878 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AB8C6F19167BC806004DF878 /* ExistingTripViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExistingTripViewController.h; sourceTree = "<group>"; };
+		AB8C6F1A167BC806004DF878 /* ExistingTripViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExistingTripViewController.m; sourceTree = "<group>"; };
+		AB8C6F31167BE309004DF878 /* MapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAnnotation.h; sourceTree = "<group>"; };
+		AB8C6F32167BE309004DF878 /* MapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotation.m; sourceTree = "<group>"; };
+		AB8C6F3D167C08AD004DF878 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		AB8C6F3E167C08AD004DF878 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		AB935D42167EDEE0001330D5 /* AllTripsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllTripsViewController.h; sourceTree = "<group>"; };
+		AB935D43167EDEE0001330D5 /* AllTripsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllTripsViewController.m; sourceTree = "<group>"; };
+		AB935D5B167F42E4001330D5 /* foresterlaunchimage57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = foresterlaunchimage57x57.png; path = ../foresterlaunchimage57x57.png; sourceTree = "<group>"; };
+		AB935D67167F4315001330D5 /* foresterlaunchimage114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = foresterlaunchimage114x114.png; path = ../foresterlaunchimage114x114.png; sourceTree = "<group>"; };
+		AB935D69167F4329001330D5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		AB935D6B167F432C001330D5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		AB935D6D167F4371001330D5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		B7223A2E1667ABA400F13CC3 /* Forester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Forester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7223A321667ABA400F13CC3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B7223A341667ABA400F13CC3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B7223A361667ABA400F13CC3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B7223A3A1667ABA400F13CC3 /* Forester-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Forester-Info.plist"; sourceTree = "<group>"; };
+		B7223A3C1667ABA400F13CC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B7223A3E1667ABA400F13CC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7223A401667ABA400F13CC3 /* Forester-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Forester-Prefix.pch"; sourceTree = "<group>"; };
+		B7223A411667ABA400F13CC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B7223A421667ABA400F13CC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B7223A4B1667ABA400F13CC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B7223A601667ABA400F13CC3 /* ForesterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForesterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7223A611667ABA400F13CC3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B7223A691667ABA400F13CC3 /* ForesterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ForesterTests-Info.plist"; sourceTree = "<group>"; };
+		B7223A6B1667ABA400F13CC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B7223A6D1667ABA400F13CC3 /* ForesterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForesterTests.h; sourceTree = "<group>"; };
+		B7223A6E1667ABA400F13CC3 /* ForesterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForesterTests.m; sourceTree = "<group>"; };
+		B76634431667C3A9000D597F /* WelcomeTree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WelcomeTree.png; sourceTree = "<group>"; };
+		B76634471667C4AE000D597F /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		B76634481667C4AE000D597F /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		B7C2E5C41667B7A8006A2E2D /* trips.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = trips.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7223A2B1667ABA400F13CC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8C6F13167BC542004DF878 /* MapKit.framework in Frameworks */,
+				AB8C6F11167BC53C004DF878 /* CoreLocation.framework in Frameworks */,
+				B7223A331667ABA400F13CC3 /* UIKit.framework in Frameworks */,
+				B7223A351667ABA400F13CC3 /* Foundation.framework in Frameworks */,
+				B7223A371667ABA400F13CC3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7223A5C1667ABA400F13CC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7223A621667ABA400F13CC3 /* SenTestingKit.framework in Frameworks */,
+				B7223A631667ABA400F13CC3 /* UIKit.framework in Frameworks */,
+				B7223A641667ABA400F13CC3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB03EB7016681BEC003E49C6 /* Welcome Images */ = {
+			isa = PBXGroup;
+			children = (
+				AB03EB6D16681778003E49C6 /* flyover.png */,
+				AB03EB5C1668096C003E49C6 /* BirdsFlyingRight.png */,
+				AB03EB66166813F0003E49C6 /* BirdsFlyingLeft.png */,
+				B76634431667C3A9000D597F /* WelcomeTree.png */,
+			);
+			name = "Welcome Images";
+			sourceTree = "<group>";
+		};
+		AB03EB7116681C00003E49C6 /* Tab Bar Icons */ = {
+			isa = PBXGroup;
+			children = (
+				AB03EB80166820EF003E49C6 /* icon_arrow_down.png */,
+				AB03EB7E166820CB003E49C6 /* icon_storage.png */,
+				AB03EB7816681F9D003E49C6 /* arrow_Path.png */,
+			);
+			name = "Tab Bar Icons";
+			sourceTree = "<group>";
+		};
+		AB03EB861668234F003E49C6 /* Recent Trips */ = {
+			isa = PBXGroup;
+			children = (
+				AB03EB87166823AC003E49C6 /* RecentTripsViewController.h */,
+				AB03EB88166823AC003E49C6 /* RecentTripsViewController.m */,
+			);
+			name = "Recent Trips";
+			sourceTree = "<group>";
+		};
+		AB4D29C1167D056F00F5E41C /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				AB4D29C3167D058500F5E41C /* blueButton.png */,
+				AB4D29C4167D058500F5E41C /* whiteButton.png */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		AB4D29C7167D059700F5E41C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				AB4D29C8167D05B100F5E41C /* ButtonLoader.h */,
+				AB4D29C9167D05B100F5E41C /* ButtonLoader.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		AB8C6F0F167BC4A3004DF878 /* New Trip */ = {
+			isa = PBXGroup;
+			children = (
+				AB8C6F0C167BC48C004DF878 /* NewTripViewController.h */,
+				AB8C6F0D167BC48C004DF878 /* NewTripViewController.m */,
+			);
+			name = "New Trip";
+			sourceTree = "<group>";
+		};
+		AB8C6F14167BC738004DF878 /* Existing Trip */ = {
+			isa = PBXGroup;
+			children = (
+				AB8C6F19167BC806004DF878 /* ExistingTripViewController.h */,
+				AB8C6F1A167BC806004DF878 /* ExistingTripViewController.m */,
+				AB8C6F3D167C08AD004DF878 /* InfoViewController.h */,
+				AB8C6F3E167C08AD004DF878 /* InfoViewController.m */,
+			);
+			name = "Existing Trip";
+			sourceTree = "<group>";
+		};
+		AB8C6F35167BE30E004DF878 /* Annotations */ = {
+			isa = PBXGroup;
+			children = (
+				AB8C6F31167BE309004DF878 /* MapAnnotation.h */,
+				AB8C6F32167BE309004DF878 /* MapAnnotation.m */,
+			);
+			name = Annotations;
+			sourceTree = "<group>";
+		};
+		AB935D41167EDDC9001330D5 /* All Trips */ = {
+			isa = PBXGroup;
+			children = (
+				AB935D42167EDEE0001330D5 /* AllTripsViewController.h */,
+				AB935D43167EDEE0001330D5 /* AllTripsViewController.m */,
+			);
+			name = "All Trips";
+			sourceTree = "<group>";
+		};
+		AB935D5A167F40A5001330D5 /* Launch Images */ = {
+			isa = PBXGroup;
+			children = (
+				AB935D6D167F4371001330D5 /* Default-568h@2x.png */,
+				AB935D6B167F432C001330D5 /* Default@2x.png */,
+				AB935D69167F4329001330D5 /* Default.png */,
+				AB935D67167F4315001330D5 /* foresterlaunchimage114x114.png */,
+				AB935D5B167F42E4001330D5 /* foresterlaunchimage57x57.png */,
+			);
+			name = "Launch Images";
+			sourceTree = "<group>";
+		};
+		B7223A231667ABA400F13CC3 = {
+			isa = PBXGroup;
+			children = (
+				B7223A381667ABA400F13CC3 /* Forester */,
+				B7223A671667ABA400F13CC3 /* ForesterTests */,
+				B7223A311667ABA400F13CC3 /* Frameworks */,
+				B7223A2F1667ABA400F13CC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7223A2F1667ABA400F13CC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7223A2E1667ABA400F13CC3 /* Forester.app */,
+				B7223A601667ABA400F13CC3 /* ForesterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7223A311667ABA400F13CC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB8C6F12167BC542004DF878 /* MapKit.framework */,
+				AB8C6F10167BC53C004DF878 /* CoreLocation.framework */,
+				B7223A321667ABA400F13CC3 /* UIKit.framework */,
+				B7223A341667ABA400F13CC3 /* Foundation.framework */,
+				B7223A361667ABA400F13CC3 /* CoreGraphics.framework */,
+				B7223A611667ABA400F13CC3 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7223A381667ABA400F13CC3 /* Forester */ = {
+			isa = PBXGroup;
+			children = (
+				B76634451667C45B000D597F /* Controllers */,
+				B76634421667C389000D597F /* Images */,
+				B7223A411667ABA400F13CC3 /* AppDelegate.h */,
+				B7223A421667ABA400F13CC3 /* AppDelegate.m */,
+				B7223A4A1667ABA400F13CC3 /* MainStoryboard.storyboard */,
+				B7223A391667ABA400F13CC3 /* Supporting Files */,
+				B7C2E5C41667B7A8006A2E2D /* trips.plist */,
+			);
+			path = Forester;
+			sourceTree = "<group>";
+		};
+		B7223A391667ABA400F13CC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7223A3A1667ABA400F13CC3 /* Forester-Info.plist */,
+				B7223A3B1667ABA400F13CC3 /* InfoPlist.strings */,
+				B7223A3E1667ABA400F13CC3 /* main.m */,
+				B7223A401667ABA400F13CC3 /* Forester-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7223A671667ABA400F13CC3 /* ForesterTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7223A6D1667ABA400F13CC3 /* ForesterTests.h */,
+				B7223A6E1667ABA400F13CC3 /* ForesterTests.m */,
+				B7223A681667ABA400F13CC3 /* Supporting Files */,
+			);
+			path = ForesterTests;
+			sourceTree = "<group>";
+		};
+		B7223A681667ABA400F13CC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7223A691667ABA400F13CC3 /* ForesterTests-Info.plist */,
+				B7223A6A1667ABA400F13CC3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B76634421667C389000D597F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AB935D5A167F40A5001330D5 /* Launch Images */,
+				AB4D29C1167D056F00F5E41C /* Buttons */,
+				AB03EB7116681C00003E49C6 /* Tab Bar Icons */,
+				AB03EB7016681BEC003E49C6 /* Welcome Images */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		B76634451667C45B000D597F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB4D29C7167D059700F5E41C /* Helper */,
+				AB8C6F35167BE30E004DF878 /* Annotations */,
+				AB935D41167EDDC9001330D5 /* All Trips */,
+				AB8C6F14167BC738004DF878 /* Existing Trip */,
+				AB8C6F0F167BC4A3004DF878 /* New Trip */,
+				AB03EB861668234F003E49C6 /* Recent Trips */,
+				B76634461667C461000D597F /* Welcome */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B76634461667C461000D597F /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				B76634471667C4AE000D597F /* WelcomeViewController.h */,
+				B76634481667C4AE000D597F /* WelcomeViewController.m */,
+			);
+			name = Welcome;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7223A2D1667ABA400F13CC3 /* Forester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7223A721667ABA400F13CC3 /* Build configuration list for PBXNativeTarget "Forester" */;
+			buildPhases = (
+				B7223A2A1667ABA400F13CC3 /* Sources */,
+				B7223A2B1667ABA400F13CC3 /* Frameworks */,
+				B7223A2C1667ABA400F13CC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Forester;
+			productName = Forester;
+			productReference = B7223A2E1667ABA400F13CC3 /* Forester.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7223A5F1667ABA400F13CC3 /* ForesterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7223A751667ABA400F13CC3 /* Build configuration list for PBXNativeTarget "ForesterTests" */;
+			buildPhases = (
+				B7223A5B1667ABA400F13CC3 /* Sources */,
+				B7223A5C1667ABA400F13CC3 /* Frameworks */,
+				B7223A5D1667ABA400F13CC3 /* Resources */,
+				B7223A5E1667ABA400F13CC3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7223A661667ABA400F13CC3 /* PBXTargetDependency */,
+			);
+			name = ForesterTests;
+			productName = ForesterTests;
+			productReference = B7223A601667ABA400F13CC3 /* ForesterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7223A251667ABA400F13CC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Xavier Seymour";
+			};
+			buildConfigurationList = B7223A281667ABA400F13CC3 /* Build configuration list for PBXProject "Forester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B7223A231667ABA400F13CC3;
+			productRefGroup = B7223A2F1667ABA400F13CC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7223A2D1667ABA400F13CC3 /* Forester */,
+				B7223A5F1667ABA400F13CC3 /* ForesterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7223A2C1667ABA400F13CC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7223A3D1667ABA400F13CC3 /* InfoPlist.strings in Resources */,
+				B7223A4C1667ABA400F13CC3 /* MainStoryboard.storyboard in Resources */,
+				B7C2E5C51667B7A8006A2E2D /* trips.plist in Resources */,
+				B76634441667C3A9000D597F /* WelcomeTree.png in Resources */,
+				AB03EB5D1668096C003E49C6 /* BirdsFlyingRight.png in Resources */,
+				AB03EB67166813F0003E49C6 /* BirdsFlyingLeft.png in Resources */,
+				AB03EB6E16681778003E49C6 /* flyover.png in Resources */,
+				AB03EB7916681F9D003E49C6 /* arrow_Path.png in Resources */,
+				AB03EB7F166820CB003E49C6 /* icon_storage.png in Resources */,
+				AB03EB81166820EF003E49C6 /* icon_arrow_down.png in Resources */,
+				AB4D29C5167D058500F5E41C /* blueButton.png in Resources */,
+				AB4D29C6167D058500F5E41C /* whiteButton.png in Resources */,
+				AB935D5C167F42E4001330D5 /* foresterlaunchimage57x57.png in Resources */,
+				AB935D68167F4315001330D5 /* foresterlaunchimage114x114.png in Resources */,
+				AB935D6A167F4329001330D5 /* Default.png in Resources */,
+				AB935D6C167F432C001330D5 /* Default@2x.png in Resources */,
+				AB935D6E167F4371001330D5 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7223A5D1667ABA400F13CC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7223A6C1667ABA400F13CC3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B7223A5E1667ABA400F13CC3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7223A2A1667ABA400F13CC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7223A3F1667ABA400F13CC3 /* main.m in Sources */,
+				B7223A431667ABA400F13CC3 /* AppDelegate.m in Sources */,
+				B76634491667C4AE000D597F /* WelcomeViewController.m in Sources */,
+				AB03EB89166823AC003E49C6 /* RecentTripsViewController.m in Sources */,
+				AB8C6F0E167BC48D004DF878 /* NewTripViewController.m in Sources */,
+				AB8C6F1B167BC806004DF878 /* ExistingTripViewController.m in Sources */,
+				AB8C6F33167BE309004DF878 /* MapAnnotation.m in Sources */,
+				AB8C6F3F167C08AD004DF878 /* InfoViewController.m in Sources */,
+				AB4D29CA167D05B100F5E41C /* ButtonLoader.m in Sources */,
+				AB935D44167EDEE0001330D5 /* AllTripsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7223A5B1667ABA400F13CC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7223A6F1667ABA400F13CC3 /* ForesterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7223A661667ABA400F13CC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7223A2D1667ABA400F13CC3 /* Forester */;
+			targetProxy = B7223A651667ABA400F13CC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7223A3B1667ABA400F13CC3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7223A3C1667ABA400F13CC3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B7223A4A1667ABA400F13CC3 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7223A4B1667ABA400F13CC3 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		B7223A6A1667ABA400F13CC3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7223A6B1667ABA400F13CC3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7223A701667ABA400F13CC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B7223A711667ABA400F13CC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7223A731667ABA400F13CC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Forester/Forester-Prefix.pch";
+				INFOPLIST_FILE = "Forester/Forester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B7223A741667ABA400F13CC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Forester/Forester-Prefix.pch";
+				INFOPLIST_FILE = "Forester/Forester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B7223A761667ABA400F13CC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Forester.app/Forester";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Forester/Forester-Prefix.pch";
+				INFOPLIST_FILE = "ForesterTests/ForesterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B7223A771667ABA400F13CC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Forester.app/Forester";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Forester/Forester-Prefix.pch";
+				INFOPLIST_FILE = "ForesterTests/ForesterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7223A281667ABA400F13CC3 /* Build configuration list for PBXProject "Forester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7223A701667ABA400F13CC3 /* Debug */,
+				B7223A711667ABA400F13CC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7223A721667ABA400F13CC3 /* Build configuration list for PBXNativeTarget "Forester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7223A731667ABA400F13CC3 /* Debug */,
+				B7223A741667ABA400F13CC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7223A751667ABA400F13CC3 /* Build configuration list for PBXNativeTarget "ForesterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7223A761667ABA400F13CC3 /* Debug */,
+				B7223A771667ABA400F13CC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7223A251667ABA400F13CC3 /* Project object */;
+}
